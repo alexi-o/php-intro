@@ -19,9 +19,9 @@ $mile_to_km = 1.60934;
 // use the variable above to calculate miles multiplied by the kilometer conversion
 $kilometers = $miles * $mile_to_km;
 // display the miles to kilometers
-echo "Distance: ";
+echo "<p>Distance: ";
 echo $miles;
 echo " miles = ";
 echo $kilometers;
-echo " km";
+echo " km</p>";
 ?>
